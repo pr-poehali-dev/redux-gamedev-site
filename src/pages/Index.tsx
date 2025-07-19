@@ -96,12 +96,10 @@ const Index = () => {
               Талантливые разработчики, дизайнеры и продюсеры, создающие игры мирового уровня
             </p>
           </div>
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             {[
-              { name: "Алексей Петров", role: "CTO & Lead Developer", icon: "Code" },
-              { name: "Мария Иванова", role: "Creative Director", icon: "Paintbrush" },
-              { name: "Дмитрий Сидоров", role: "Game Designer", icon: "Gamepad2" },
-              { name: "Анна Козлова", role: "Producer", icon: "Users" }
+              { name: "Юзефович Давид", role: "Разработчик", icon: "Code" },
+              { name: "Trane", role: "Саунд-дизайнер", icon: "Music" }
             ].map((member, index) => (
               <Card key={index} className="bg-white/10 border-[#FF6B35]/20 hover-scale">
                 <CardContent className="p-6 text-center">
