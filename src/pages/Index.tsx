@@ -124,14 +124,10 @@ const Index = () => {
               Портфолио успешных проектов, завоевавших сердца миллионов игроков
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
-              { title: "Space Odyssey", genre: "Sci-Fi Adventure", status: "Выпущена" },
-              { title: "Medieval Legends", genre: "RPG Fantasy", status: "В разработке" },
-              { title: "Cyber Runner", genre: "Action Platformer", status: "Скоро" },
-              { title: "Ocean Depths", genre: "Underwater Exploration", status: "Выпущена" },
-              { title: "Magic Realm", genre: "Strategy", status: "В разработке" },
-              { title: "Future Wars", genre: "Tactical Shooter", status: "Планируется" }
+              { title: "Car Street Racing", genre: "Захватывающая игра про гонки на телефон!", status: "В разработке" },
+              { title: "The Remains", genre: "Трогательная история про выживание в мире пост-апокалипсис", status: "В разработке" }
             ].map((game, index) => (
               <Card key={index} className="bg-white/10 border-[#FF6B35]/20 hover-scale group cursor-pointer">
                 <CardContent className="p-6">
